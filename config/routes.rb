@@ -1,3 +1,6 @@
 Rails.application.routes.draw do
-  root "hello#index"
+  resources :programs
+  resources :enrollments
+  resources :users
+ # root "hello#index"
 end
